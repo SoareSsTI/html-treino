@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(231, 222, 210, 0.452);
+    /* background-color: rgba(255, 228, 196, 0.452); */
+    background-image: url(../img/pet1.png);
+    background-size: contain;
+    gap: 24px;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height:8vh ;
+    background-color: rgba(185, 177, 164, 0.897);
+    margin-top: -8px;
+    margin-left: -8px;
+    align-items: left;
+    flex-direction: row;
+}
+
+    .cabecalho--titulo{
+        margin-left: 20px;
+    }
+
+
+    
