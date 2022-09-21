@@ -1,0 +1,58 @@
+
+
+.cabecalho__menu{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+    .cabecalho__menu a{
+        color: #000;
+        text-decoration: none;
+    }
+
+    .cabecalho__menu a:hover{
+        font-weight: 500;
+    }
+
+body{
+    background-image: url('../../img/fundo-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+}
+
+    .cabecalho > .container{
+        align-items: center;
+        display: flex;
+        height: 4rem;
+        justify-content: flex-end;
+    }
+
+.hero{
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: calc(100vh - 4rem);
+    padding-top: 7rem;
+}
+
+.produtos{
+    background-color: #FAFAFA;
+    display: flex;
+}
+
+    .produtos__imagem{
+       
+    }
+
+.adocao{
+    background-color: #FAFAFA;
+    display: flex;
+}
