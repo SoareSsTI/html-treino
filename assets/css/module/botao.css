@@ -1,0 +1,15 @@
+.botao{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 8px 40px;
+    
+}
+
+    .botao:hover{
+        font-weight: 500;
+    }

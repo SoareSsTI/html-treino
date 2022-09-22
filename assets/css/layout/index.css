@@ -15,11 +15,6 @@
         font-weight: 500;
     }
 
-body{
-    background-image: url('../../img/fundo-hero.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
 .container{
     margin: auto;
@@ -34,13 +29,38 @@ body{
     }
 
 .hero{
+    background-image: url('../../img/fundo-hero.jpg');
+    background-size: cover;
+    background-position: center;
     box-sizing: border-box;
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    height: calc(100vh - 4rem);
-    padding-top: 7rem;
+    height: 100vh;
+}
+
+.produtos, .adocao{
+    display: flex;
+    height: 50vh;
+    
+}
+
+
+.produtos > *, .adocao > *{
+    flex-basis: 100%;
+}
+
+.produtos__descricao, .adocao__descricao{
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 1rem;
+    max-width: 50%;
 }
 
 .produtos{
@@ -48,11 +68,29 @@ body{
     display: flex;
 }
 
-    .produtos__imagem{
-       
+    .produtos__descricao{
+        background-color: #fff1a2;
     }
+
+
+.produtos__imagem{
+    background-image: url(../../img/fundo-produtos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 .adocao{
     background-color: #FAFAFA;
     display: flex;
+}
+
+    .adocao__descricao{
+        background-color: #ffcfcf;
+    }
+
+ .adocao__imagem{
+    background-image: url(../../img/fundo-adocao.jpg);
+    background-size: contain;
+    background-position: center;
 }
