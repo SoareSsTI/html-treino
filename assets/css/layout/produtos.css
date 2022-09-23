@@ -62,3 +62,12 @@ body img{
     padding-top: 5px;
 
 }
+
+.produto__Valor{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.produto__parcelar{
+    font-style: italic;
+}
